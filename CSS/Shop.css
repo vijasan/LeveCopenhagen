@@ -1,0 +1,88 @@
+.overskrift {
+  color: #404040;
+  font-weight: bolder;
+  text-align: center;
+  padding: 10px;
+}
+
+.produkt {
+  background-color: white;
+  color: #404040;
+  padding: 1rem;
+  height: 40rem;
+}
+
+.produkter {
+  max-width: 1400px;
+  margin: 5px;
+  display: grid;
+  grid-gap: 1rem;
+  justify-content: center;
+}
+
+.img-shop {
+  width: 100%;
+  object-fit: contain;
+}
+
+.img-text {
+  padding: 5px;
+}
+
+.knapper {
+  text-align: center;
+}
+.knap-shop {
+  background-color: white;
+  border: 1px solid #404040;
+  opacity: 50%;
+  border-radius: 25;
+  height: 20px;
+}
+
+@media (min-width: 600px) {
+  .produkter {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .produkter {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  margin: 10px;
+}
+
+.column-1 {
+  flex-shrink: 0; /* shrinks to 0 to apply 70% width*/
+  flex-basis: 50%; /* sets initial width to 70%*/
+}
+
+.box {
+  padding: 10px;
+  margin: 1rem;
+}
+
+.hero {
+  max-width: 100%;
+}
+
+.column-2 {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .box {
+    margin: 0 0 1rem;
+  }
+}
