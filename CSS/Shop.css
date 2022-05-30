@@ -4,6 +4,12 @@
   text-align: center;
   padding: 10px;
 }
+.hero-text {
+  color: #404040;
+  font-weight: bolder;
+  text-align: left;
+  margin-right: 10px;
+}
 
 .produkt {
   background-color: white;
@@ -59,9 +65,6 @@ h4 {
   .img-text {
     margin-left: 30px;
   }
-  .container {
-    flex-direction: column;
-  }
 
   .box {
     margin: 0 0 1rem;
@@ -71,7 +74,7 @@ h4 {
 .container {
   display: flex;
   width: 100%;
-  margin: 10px;
+  margin: 5px;
 }
 
 .column-1 {
