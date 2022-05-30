@@ -1,0 +1,17 @@
+.grid_block_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+  margin-left: 20rem;
+}
+
+.col {
+  grid-column: auto;
+}
+
+.block_3 {
+  text-align: center;
+  margin: 7rem;
+}
