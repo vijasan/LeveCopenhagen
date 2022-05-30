@@ -22,36 +22,38 @@
       </nav>
     </header>
     <main>
-      <img src="billede.webp" alt="kollekton" class="billede1" />
-
       <div class="container">
         <h1 class="kontakt">Kontakt os</h1>
-        <div>
-          <details>
-            <h3>Kontakt</h3>
-            <p>info@levecopenhagen.com</p>
+        <img src="billede.webp" alt="kollekton" class="billede1" />
+        <div class="detaljer">
+          <h3>Kontakt</h3>
+          <p>info@levecopenhagen.com</p>
 
-            <p>Kundeservice: kl. 10-18 i alle ugens dage + 45 26110511</p>
-          </details>
+          <p>Kundeservice: kl. 10-18 i alle ugens dage</p>
+          <p>+ 45 26110511</p>
         </div>
+        <div class="udfyld">
+          <form>
+            <label for="name">Navn</label>
+            <input type="text" id="name" placeholder="Dit navn" />
 
-        <form>
-          <label for="name">Navn</label>
-          <input type="text" id="name" placeholder="Dit navn" />
-
-          <label for="email">E-mail</label>
-          <input type="text" id="email" placeholder="Din e-mail adresse" />
-
-          <label for="subject">Besked</label>
-          <textarea
-            id="subject"
-            placeholder="Skriv din besked her"
-            style="height: 200px"
-          ></textarea>
-
-          <input type="submit" value="Send" />
+            <label for="email">E-mail</label>
+            <input type="text" id="email" placeholder="Din e-mail adresse" />
+          </div>
         </form>
+        <div class="besked">
+        <form>
+            <label for="subject">Besked</label>
+            <textarea
+              id="subject"
+              placeholder="Skriv din besked her"
+              style="height: 200px"
+            ></textarea> 
+<input type="submit" value="Send" />
+</form>
+</div>
       </div>
     </main>
+    <footer>leve.</footer>
   </body>
 </html>
