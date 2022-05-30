@@ -1,3 +1,23 @@
+img {
+  max-width: 100%;
+}
+
+.info {
+  text-align: center;
+  position: absolute;
+  font-size: 10px;
+  top: 14vh;
+  left: 57%;
+  color: white;
+}
+
+p {
+  padding: 10px 50px;
+  position: relative;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .overskrift {
   color: #404040;
   font-weight: bolder;
@@ -33,10 +53,23 @@
 h4 {
   font-weight: 700;
 }
+.container {
+  display: flex;
+  width: 100%;
+  margin: 10px;
+}
 
 @media (min-width: 600px) {
   .leve {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .info {
+    text-align: center;
+    position: absolute;
+    font-size: 16px;
+    top: 24vh;
+    left: 65%;
+    color: white;
   }
 }
 
@@ -44,36 +77,15 @@ h4 {
   .leve {
     grid-template-columns: repeat(1, 1fr);
   }
+  .info {
+    text-align: center;
+    position: absolute;
+    font-size: 18px;
+    top: 54vh;
+    left: 60%;
+    color: white;
+  }
   .container {
     flex-direction: column;
   }
-
-  .box {
-    margin: 0 0 1rem;
-  }
-}
-
-.container {
-  display: flex;
-  width: 100%;
-  margin: 10px;
-}
-
-.column-1 {
-  flex-shrink: 0;
-  flex-basis: 50%;
-}
-
-.box {
-  padding: 10px;
-  margin: 1rem;
-}
-
-.hero {
-  max-width: 100%;
-}
-
-.column-2 {
-  display: flex;
-  align-items: center;
 }
