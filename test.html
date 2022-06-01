@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="CSS/Generel.css" />
+    <link rel="stylesheet" href="CSS/Shop.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+ <div class="grid-container">
+
+    <div class="grid-child-1">VI LY
+       <p>Salg & kommunikation</p>
+          <p>
+            Favorit item: Martini sæt “Jeg føler mig godt tilpas i sættet - det
+            er både behageligt og sexet på samme tid”
+          </p>
+    </div>
+        <img src="IMG/vi.webp" alt="vi-portraet">
+
+   
+      <div class="grid-child-3">
+        <img src="IMG/emma.webp" alt="emma-portraet">
+    </div>
+      <div class="grid-child-4">EMMA LISMANN
+        <p>Supply chain & stud. jur.</p>
+          <p>
+            Favorit item: Oversized Blazer - Sort “Det er mit absolut go-to
+            item, da den kan bruges til enhver lejlighed”
+          </p>
+    </div>
+
+    </div>
+    <div class="grid-container">
+
+    <div class="grid-child-1">EMILIE NIELSEN
+       <p>
+            Stylist & content creator <br />
+            Sociale medier, content & styling
+          </p>
+          <p>
+            Favorit item: Sort suit “Det her suit er et musthave I mingarderobe.
+            Det er klassisk, behageligt og kan bruges til hverdag og fest”
+          </p>
+    </div>
+        <img src="IMG/emilie.webp" alt="emilie-portraet">
+
+   
+      <div class="grid-child-3">
+        <img src="IMG/anna.webp" alt="anna-portraet">
+    </div>
+      <div class="grid-child-4">ANNA HAURAND
+     <p>Content creator & Sociale medier</p>
+            <p>
+              Favorit item: Rave sæt “Det er mit yndlings item fordi det er
+              behageligt, elegant og kan både styles til hverdag og fest”
+            </p>
+    </div>
+
+    </div>
+
+
+</body>
+
+    <style>
+
+.grid-container {
+    display: grid;
+    grid-template-columns:1fr;
+    grid-gap: 20px;
+    grid-template-rows: 500px 500px;
+  
+} 
+.grid-child-1 {
+  order: 2;
+  text-align: end;
+
+}
+
+.grid-child-2  {
+  order: 1;
+
+}
+.grid-child-3 {
+  order: 3;
+  
+}
+
+.grid-child-4  {
+  order: 4;
+  text-align: end;
+
+}
+
+@media (min-width: 1080px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:20px;
+  }
+  .grid-child-1 {
+  order: 1;
+}
+
+.grid-child-2  {
+  order: 2;
+}
+.grid-child-3 {
+  order: 4;
+}
+
+.grid-child-4  {
+  order: 3;
+}
+
+}
+    </style>
+  </body>
+</html>
