@@ -60,9 +60,6 @@ h4 {
   .produkter {
     grid-template-columns: repeat(3, 1fr);
   }
-  .img-text {
-    margin-left: 30px;
-  }
 
   .box {
     margin: 0 0 1rem;
