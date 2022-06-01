@@ -1,3 +1,7 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+
 img {
   width: 100%;
   max-width: 100%;
@@ -50,13 +54,13 @@ h4 {
   height: 20px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .produkter {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1080px) {
   .produkter {
     grid-template-columns: repeat(3, 1fr);
   }
