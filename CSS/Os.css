@@ -1,3 +1,7 @@
+img {
+  width: 100%;
+  max-width: 100%;
+}
 .overskrift {
   color: #404040;
   font-weight: bolder;

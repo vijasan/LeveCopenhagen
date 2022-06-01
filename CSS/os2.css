@@ -69,7 +69,7 @@ h4 {
     font-size: 16px;
     top: 24vh;
     left: 65%;
-    color: white;
+    color: #404040;
   }
 }
 
@@ -83,7 +83,7 @@ h4 {
     font-size: 18px;
     top: 54vh;
     left: 60%;
-    color: white;
+    color: #404040;
   }
   .container {
     flex-direction: column;
