@@ -1,0 +1,29 @@
+.grid_block_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+
+.col {
+  grid-column: auto;
+  text-align: center;
+}
+
+.block_2 {
+  background-position: 0% 100%;
+  max-width: none;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.vi_Container_1_2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.emma_Container_2_1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}

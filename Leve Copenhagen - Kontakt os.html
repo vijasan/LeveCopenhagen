@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="da"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leve Copenhagen - Kontakt os</title>
+    
+    
+  <link rel="stylesheet" href="Leve%20Copenhagen%20-%20Kontakt%20os-filer/Generel.css"><link rel="stylesheet" href="Leve%20Copenhagen%20-%20Kontakt%20os-filer/kontakt.css"></head>
+  <body>
+    <header class="header">
+      <nav>
+        <ul>
+          <li>
+            <a href="http://127.0.0.1:5500/index.html">leve.</a>
+          </li>
+          <li><a href="http://127.0.0.1:5500/side2.html">SHOP</a></li>
+          <li><a href="http://127.0.0.1:5500/side3.html">OM OS</a></li>
+          <li><a href="http://127.0.0.1:5500/side4.html">KONTAKT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="kontakt">Kontakt os</h1>
+      <div class="container">
+        <img src="Leve%20Copenhagen%20-%20Kontakt%20os-filer/billede.webp" alt="kollekton" class="billede1">
+        <div class="detaljer">
+          <h3>Kontakt</h3>
+          <p>info@levecopenhagen.com</p>
+
+          <p>Kundeservice: kl. 10-18 i alle ugens dage + 45 26110511</p>
+        </div>
+        <div class="udfyld">
+          <form>
+            <label for="name">Navn</label>
+            <input type="text" id="name" placeholder="Dit navn">
+
+            <label for="email">E-mail</label>
+            <input type="text" id="email" placeholder="Din e-mail adresse">
+          </form></div>
+        
+        <form>
+            <div class="besked">
+            <label for="subject">Besked</label>
+            <textarea id="subject" placeholder="Skriv din besked her" style="height: 200px"></textarea> 
+<input type="submit" value="Send">
+            </div>
+          </form>
+      </div>
+    </main>
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
