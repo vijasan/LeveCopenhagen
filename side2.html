@@ -8,27 +8,37 @@
     <meta name="robots" content="noindex" />
     <link rel="stylesheet" href="CSS/Generel.css" />
     <link rel="stylesheet" href="CSS/Shop.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="CSS/nap_kontakt.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <header class="header">
-      <nav>
+    <header>
+      <div class="logo">
+        <a href="index.html">leve.</a>
+      </div>
+
+      <div class="menu1">
+        <nav>
+          <div class="content_menu">
+            <ul>
+              <li><a href="side2.html">SHOP</a></li>
+              <li><a href="side3.html">OM OS</a></li>
+              <li><a href="side4.html">KONTAKT</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="kurvlogin">
         <ul>
-          <li>
-            <a href="index.html">leve.</a>
-          </li>
-          <li><a href="side2.html">Shop</a></li>
-          <li><a href="side3.html">Om os</a></li>
-          <li><a href="side4.html">Kontakt</a></li>
+          <li><a href="side3.html">KURV</a></li>
+          <li><a href="side4.html">LOGIN</a></li>
         </ul>
-      </nav>
+      </div>
+      <div id="hamburger">
+        <div></div>
+      </div>
     </header>
     <main>
       <div class="container">
@@ -123,4 +133,11 @@
       </div>
     </main>
   </body>
+  <script>
+    window.addEventListener("scroll", function () {
+      let header = document.querySelector("header");
+      let windowPosition = window.scrollY > 0;
+      header.classList.toggle("scrolling-active", windowPosition);
+    });
+  </script>
 </html>

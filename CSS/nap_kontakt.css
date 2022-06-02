@@ -35,6 +35,10 @@ header {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 3rem;
+  margin-right: 5%;
+}
+.logo a:hover {
+  text-decoration: none;
 }
 
 .search {
@@ -59,8 +63,7 @@ header ul {
 }
 
 #hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
-    url(../IMG/billede_forside.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(../IMG/billede_forside.jpg);
   background-size: cover;
   max-width: none;
   max-width: 100%;
@@ -210,8 +213,7 @@ header ul {
     margin-left: 5%;
   }
   #hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
-      url(../IMG/billede_forside.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(../IMG/billede_forside.jpg);
     background-size: cover;
     max-width: none;
     max-width: 100%;
