@@ -1,6 +1,6 @@
-@media (min-width: 600px) {
+@media (min-width: 781px) {
   body {
-    margin: 40px;
+    margin: 20px;
   }
   h1,
   h3,
@@ -28,7 +28,7 @@
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     padding: 12px 20px;
-    margin-left: 300px;
+    margin-left: 320px;
     border: 2px solid rgb(0, 0, 0);
     cursor: pointer;
     font-family: "Lato", sans-serif;
@@ -47,6 +47,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    gap: 16px;
   }
   .detaljer {
     font-family: "Lato", sans-serif;
@@ -62,7 +63,7 @@
     width: 100%;
     margin-top: 106px;
     margin-left: -4px;
-    height: 119%;
+    height: 100%;
   }
   .udfyld {
     grid-row: 1;
@@ -77,7 +78,7 @@
     font-family: "Lato", sans-serif;
     grid-row: 2;
     grid-column: 2;
-    margin-top: -115px;
+    margin-top: -158px;
     width: 80%;
     position: relative;
   }
@@ -92,7 +93,7 @@
 
 @media (max-width: 1400px) {
   body {
-    margin: 40px;
+    margin: 20px;
   }
   h1,
   h3,
@@ -120,7 +121,7 @@
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     padding: 12px 20px;
-    margin-left: 300px;
+    margin-left: 260px;
     border: 2px solid rgb(0, 0, 0);
     cursor: pointer;
     font-family: "Lato", sans-serif;
@@ -145,7 +146,7 @@
     grid-column: 2;
     grid-row: 1;
     width: 40%;
-    margin-left: 485px;
+    margin-left: 390px;
     margin-top: 170px;
   }
   .billede1 {
@@ -154,12 +155,12 @@
     width: 100%;
     margin-top: 106px;
     margin-left: -4px;
-    height: 119%;
+    height: 100%;
   }
   .udfyld {
     grid-row: 1;
     grid-column: 2;
-    margin-top: 190px;
+    margin-top: 168px;
     margin-right: 700px;
     width: 50%;
     position: relative;
@@ -169,7 +170,7 @@
     font-family: "Lato", sans-serif;
     grid-row: 2;
     grid-column: 2;
-    margin-top: -36px;
+    margin-top: -117px;
     width: 80%;
     position: relative;
   }
@@ -181,10 +182,9 @@
     position: relative;
   }
 }
-
-@media (max-width: 1255px) {
+@media (max-width: 1320px) {
   body {
-    margin: 40px;
+    margin: 20px;
   }
   h1,
   h3,
@@ -251,7 +251,7 @@
   .udfyld {
     grid-row: 1;
     grid-column: 2;
-    margin-top: 190px;
+    margin-top: 150px;
     margin-right: 700px;
     width: 50%;
     position: relative;
@@ -269,7 +269,374 @@
     font-family: "Lato", sans-serif;
     grid-row: 1;
     grid-column: 2;
-    margin-top: 108px;
+    margin-top: 97px;
+    position: relative;
+  }
+}
+
+@media (max-width: 1255px) {
+  body {
+    margin: 20px;
+  }
+  h1,
+  h3,
+  p {
+    font-family: "Lato", sans-serif;
+  }
+
+  /* Style inputs with type="text", select elements and textareas */
+  input[type="text"],
+  select,
+  textarea {
+    font-family: "Lato", sans-serif;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid rgb(0, 0, 0); /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  /* Style the submit button with a specific background color etc */
+  input[type="submit"] {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    margin-left: 150px;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+  }
+
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type="submit"]:hover {
+    background-color: #332b2b83;
+  }
+
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-family: "Lato", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .detaljer {
+    font-family: "Lato", sans-serif;
+    grid-column: 2;
+    grid-row: 1;
+    width: 40%;
+    margin-left: 400px;
+    margin-top: 170px;
+  }
+  .billede1 {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    margin-top: 106px;
+    margin-left: -4px;
+    height: 119%;
+  }
+  .udfyld {
+    grid-row: 1;
+    grid-column: 2;
+    margin-top: 150px;
+    margin-right: 700px;
+    width: 50%;
+    position: relative;
+    font-family: "Lato", sans-serif;
+  }
+  .besked {
+    font-family: "Lato", sans-serif;
+    grid-row: 2;
+    grid-column: 2;
+    margin-top: -29px;
+    width: 50%;
+    position: relative;
+  }
+  .kontakt {
+    font-family: "Lato", sans-serif;
+    grid-row: 1;
+    grid-column: 2;
+    margin-top: 97px;
+    position: relative;
+  }
+}
+@media (max-width: 1125px) and (min-width: 769px) {
+  body {
+    margin: 20px;
+  }
+  h1,
+  h3,
+  p {
+    font-family: "Lato", sans-serif;
+  }
+
+  /* Style inputs with type="text", select elements and textareas */
+  input[type="text"],
+  select,
+  textarea {
+    font-family: "Lato", sans-serif;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid rgb(0, 0, 0); /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  /* Style the submit button with a specific background color etc */
+  input[type="submit"] {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    margin-left: 150px;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+  }
+
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type="submit"]:hover {
+    background-color: #332b2b83;
+  }
+
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-family: "Lato", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .detaljer {
+    font-family: "Lato", sans-serif;
+    grid-column: 2;
+    grid-row: 1;
+    width: 40%;
+    margin-left: 400px;
+    margin-top: 170px;
+  }
+  .billede1 {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    margin-top: 106px;
+    margin-left: -4px;
+    height: 119%;
+  }
+  .udfyld {
+    grid-row: 1;
+    grid-column: 2;
+    margin-top: 150px;
+    margin-right: 700px;
+    width: 50%;
+    position: relative;
+    font-family: "Lato", sans-serif;
+  }
+  .besked {
+    font-family: "Lato", sans-serif;
+    grid-row: 2;
+    grid-column: 2;
+    margin-top: -29px;
+    width: 50%;
+    position: relative;
+  }
+  .kontakt {
+    font-family: "Lato", sans-serif;
+    grid-row: 1;
+    grid-column: 2;
+    margin-top: 97px;
+    position: relative;
+  }
+}
+@media (max-width: 455px) {
+  body {
+    margin: 20px;
+  }
+  h1,
+  h3,
+  p {
+    font-family: "Lato", sans-serif;
+  }
+
+  /* Style inputs with type="text", select elements and textareas */
+  input[type="text"],
+  select,
+  textarea {
+    font-family: "Lato", sans-serif;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid rgb(0, 0, 0); /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  /* Style the submit button with a specific background color etc */
+  input[type="submit"] {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    margin-left: 250px;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+  }
+
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type="submit"]:hover {
+    background-color: #332b2b83;
+  }
+
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-family: "Lato", sans-serif;
+    display: contents;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px;
+  }
+  .detaljer {
+    font-family: "Lato", sans-serif;
+    grid-column: 2;
+    grid-row: 1;
+    width: 40%;
+    margin-left: 355px;
+    margin-top: 170px;
+  }
+  .billede1 {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    margin-top: 21px;
+    margin-left: -4px;
+    height: 100%;
+  }
+  .udfyld {
+    grid-row: 1;
+    grid-column: 2;
+    margin-top: -179px;
+    margin-right: 700px;
+    width: 50%;
+    position: relative;
+    font-family: "Lato", sans-serif;
+  }
+  .besked {
+    font-family: "Lato", sans-serif;
+    grid-row: 2;
+    grid-column: 2;
+    margin-top: 6px;
+    width: 80%;
+    position: relative;
+  }
+  .kontakt {
+    font-family: "Lato", sans-serif;
+    grid-row: 1;
+    grid-column: 2;
+    margin-top: 60px;
+    position: relative;
+  }
+}
+@media (max-width: 780px) {
+  body {
+    margin: 20px;
+  }
+  h1,
+  h3,
+  p {
+    font-family: "Lato", sans-serif;
+  }
+
+  /* Style inputs with type="text", select elements and textareas */
+  input[type="text"],
+  select,
+  textarea {
+    font-family: "Lato", sans-serif;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid rgb(0, 0, 0); /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  /* Style the submit button with a specific background color etc */
+  input[type="submit"] {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    margin-left: 150px;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+  }
+
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type="submit"]:hover {
+    background-color: #332b2b83;
+  }
+
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-family: "Lato", sans-serif;
+    display: contents;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px;
+  }
+  .detaljer {
+    font-family: "Lato", sans-serif;
+    grid-column: 2;
+    grid-row: 1;
+    width: 40%;
+    margin-left: 240px;
+    margin-top: 170px;
+  }
+  .billede1 {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    margin-top: 21px;
+    margin-left: -4px;
+    height: 100%;
+  }
+  .udfyld {
+    grid-row: 1;
+    grid-column: 2;
+    margin-top: -179px;
+    margin-right: 700px;
+    width: 50%;
+    position: relative;
+    font-family: "Lato", sans-serif;
+  }
+  .besked {
+    font-family: "Lato", sans-serif;
+    grid-row: 2;
+    grid-column: 2;
+    margin-top: 6px;
+    width: 80%;
+    position: relative;
+  }
+  .kontakt {
+    font-family: "Lato", sans-serif;
+    grid-row: 1;
+    grid-column: 2;
+    margin-top: 60px;
     position: relative;
   }
 }
