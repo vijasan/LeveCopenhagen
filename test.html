@@ -26,11 +26,14 @@
             er både behageligt og sexet på samme tid”
           </p>
     </div>
-        <img src="IMG/vi.webp" alt="vi-portraet">
+      <div class="grid-child-2">
+         <img src="IMG/vi.webp" alt="vi-portraet" class="billed">
+    </div>
+       
 
    
       <div class="grid-child-3">
-        <img src="IMG/emma.webp" alt="emma-portraet">
+        <img src="IMG/emma.webp"  alt="emma-portraet" class="billed">
     </div>
       <div class="grid-child-4">EMMA LISMANN
         <p>Supply chain & stud. jur.</p>
@@ -53,11 +56,11 @@
             Det er klassisk, behageligt og kan bruges til hverdag og fest”
           </p>
     </div>
-        <img src="IMG/emilie.webp" alt="emilie-portraet">
+        <img src="IMG/emilie.webp" alt="emilie-portraet" class="billed">
 
    
       <div class="grid-child-3">
-        <img src="IMG/anna.webp" alt="anna-portraet">
+        <img src="IMG/anna.webp" alt="anna-portraet" class="billed" >
     </div>
       <div class="grid-child-4">ANNA HAURAND
      <p>Content creator & Sociale medier</p>
@@ -84,6 +87,8 @@
 .grid-child-1 {
   order: 2;
   text-align: end;
+  margin-right: 10px;
+  
 
 }
 
@@ -93,6 +98,7 @@
 }
 .grid-child-3 {
   order: 3;
+  float: right;
   
 }
 
@@ -101,6 +107,9 @@
   text-align: end;
 
 }
+.billed{
+  max-width: 90%;
+}
 
 @media (min-width: 1080px) {
   .grid-container {
@@ -108,11 +117,11 @@
     grid-gap:20px;
   }
   .grid-child-1 {
-  order: 1;
+  order: 2;
 }
 
 .grid-child-2  {
-  order: 2;
+  order: 1;
 }
 .grid-child-3 {
   order: 4;
