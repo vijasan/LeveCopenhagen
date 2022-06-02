@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="da">
   <head>
     <meta charset="UTF-8" />
@@ -7,23 +7,34 @@
     <title>Leve Copenhagen - Om os</title>
     <link rel="stylesheet" href="CSS/Generel.css" />
     <link rel="stylesheet" href="CSS/os.css" />
+    <link rel="stylesheet" href="css/nap.css" />
   </head>
   <body>
-    <header class="header">
-      <nav>
+    <header>
+      <div class="logo">
+        <a href="index.html">leve.</a>
+      </div>
+
+      <div class="menu">
+        <nav>
+          <div class="content_menu">
+            <ul>
+              <li><a href="side2.html">SHOP</a></li>
+              <li><a href="side3.html">OM OS</a></li>
+              <li><a href="side4.html">KONTAKT</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="kurvlogin">
         <ul>
-          <li>
-            <a href="index.html">leve.</a>
-          </li>
-          <li><a href="side2.html">Shop</a></li>
-          <li><a href="side3.html">Om os</a></li>
-          <li><a href="side4.html">Kontakt</a></li>
+          <li><a href="side3.html">KURV</a></li>
+          <li><a href="side4.html">LOGIN</a></li>
         </ul>
-      </nav>
+      </div>
     </header>
     <main>
-      <div class="container">
-        <img src="IMG/splashomos.png" alt="hero-billede" />
+      <div class="heropage">
       </div>
 
       <div class="grid_block_1_1">
@@ -65,6 +76,9 @@
       </div>
 
       <div class="emma_container_2_1">
+        <div class="col_emma">
+          <img src="IMG/emma.jpg" alt="Emma-portræt" />
+        </div>
         <div class="col_emma2">
           <h3>EMMA LISMANN</h3>
           <p>Supply chain & stud. jur.</p>
@@ -73,9 +87,6 @@
             “Det er mit absolut go-to item, <br />
             da den kan bruges til enhver lejlighed”
           </p>
-        </div>
-        <div class="col_emma">
-          <img src="IMG/emma.jpg" alt="Emma-portræt" />
         </div>
       </div>
 
@@ -98,6 +109,9 @@
       </div>
 
       <div class="anna_container_2_1">
+        <div class="col_anna">
+          <img src="IMG/anna.jpg" alt="Anna-portræt" />
+        </div>
         <div class="col_anna2">
           <h3>ANNA HAURAND</h3>
           <p>Content creator & Sociale medier</p>
@@ -107,10 +121,41 @@
             elegant og kan både styles til hverdag og fest”
           </p>
         </div>
-        <div class="col_anna">
-          <img src="IMG/anna.jpg" alt="Anna-portræt" />
-        </div>
       </div>
     </main>
+    <div class="footer-container">
+      <div class="footer">
+        <div class="footer-header footer-1">
+          <h2>Kontakt</h2>
+          <ul>
+            <li>Kundeservice: kl. 10-18 i alle ugens dage</li>
+            <li>Telefon: + 45 26110511</li>
+            <li>E-mail: info@levecopenhagen.com</li>
+            <li>CVR NR. 42094382</li>
+          </ul>
+        </div>
+        <div class="footer-header footer-2">
+          <h2>Information</h2>
+          <a href="#">Fortrolighedspolitik</a>
+          <a href="#">Servicevilkår</a>
+          <a href="#">Forhandlere</a>
+          <a href="#">Bytte og returnering</a>
+          <a href="#">Tilbagebetalingspolitik</a>
+          <a href="#">Kontakt os</a>
+        </div>
+        <div class="footer-email-form">
+          <div>
+            <h2>TILMELD DIG VORES NYHEDSBREV</h2>
+            <input type="email" placeholder="Mailadresse" id="footer-email" />
+            <input type="submit" value="Abonnér" id="footer-email-btn" />
+          </div>
+      </div>
+    </div>
   </body>
+  <script>
+    window.addEventListener("scroll", function () {
+    let header = document.querySelector("header");
+    let windowPosition = window.scrollY > 0;
+    header.classList.toggle("scrolling-active", windowPosition);
+  });</script>
 </html>
