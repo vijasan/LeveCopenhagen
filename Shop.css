@@ -1,0 +1,86 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+.overskrift {
+  color: #404040;
+  font-weight: bolder;
+  text-align: center;
+  padding: 10px;
+}
+
+.produkt {
+  background-color: white;
+  color: #404040;
+  padding: 1rem;
+  height: 40rem;
+}
+
+.produkter {
+  max-width: 1400px;
+  margin: 5px;
+  display: grid;
+  grid-gap: 1rem;
+  justify-content: center;
+}
+
+.img-shop {
+  width: 100%;
+  object-fit: contain;
+  max-height: 80%;
+}
+
+.img-text {
+  padding: 10px;
+}
+
+h4 {
+  font-weight: 700;
+}
+
+.knapper {
+  text-align: center;
+}
+
+.knap-shop {
+  background-color: white;
+  border: 1px solid #404040;
+  opacity: 50%;
+  border-radius: 25;
+  height: 20px;
+}
+
+@media (min-width: 768px) {
+  .produkter {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1080px) {
+  .produkter {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .box {
+    margin: 0 0 1rem;
+  }
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  margin: 5px;
+}
+
+.column-1 {
+  flex-shrink: 0;
+  flex-basis: 80%;
+}
+
+.hero {
+  max-width: 100%;
+}

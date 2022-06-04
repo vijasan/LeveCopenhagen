@@ -1,0 +1,17 @@
+* {
+  font-family: PSL Ornanong Pro;
+}
+
+//const something evt. menu ???
+
+ul {
+  width: 100%;
+  display: table;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+ul li {
+  display: inline-block;
+  float: none;
+}
